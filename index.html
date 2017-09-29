@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Awnder - making it simple to aggregate personalized travel advice, evolving as you go">
+    <meta name="author" content="zgrnk">
+    <meta name="keyword" content="Travel, Advice, Maps, Friends, Plan, Tips, Discover, Favorite, Locations">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Login Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-awnder.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+</head>
+
+  <body class="login-img3-body">
+
+    <div class="container">
+
+      <form class="login-form" action="http://eepurl.com/cX641n">
+        <div class="login-wrap">
+            <p class="login-title"><h1 class="lite">awnder</h1></p>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
+              <input type="text" class="form-control" placeholder="Username" autofocus>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <label class="checkbox">
+                <input type="checkbox" value="remember-me"> Remember me
+                <span class="pull-right"> <a href="#"> Forgot Password?</a></span>
+            </label>
+
+             <button class="btn btn-primary btn-lg btn-block" type="button">Login</button> 
+            <!--<a class="btn btn-primary btn-lg btn-block" data-toggle="modal" href="#invalid_login">
+                Login
+             </a> -->
+            <button class="btn btn-info btn-lg btn-block" type="submit">Signup</button>
+        </div>
+      </form>
+      <!-- Modal -->
+      <div class="modal fade" id="invalid_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+                      <!-- <button class="btn btn-primary btn-lg btn-block close" data-dismiss="modal" type="button">Login</button> -->
+                      <h4 class="modal-title">Try again</h4>
+                  </div>
+                  <div class="modal-body">
+
+                      Invalid username/password combination!!!
+
+                  </div>
+                  <div class="modal-footer">
+                      <button class="btn btn-danger" type="button"> Ok</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- modal -->
+    </div>
+  </body>
+</html>

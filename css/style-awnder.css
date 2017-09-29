@@ -1,0 +1,20 @@
+
+.login-img3-body{
+  background: url('https://farm5.staticflickr.com/4321/36289905296_4b89ec150a_o.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.lite{
+    color: #00a0df !important;
+    text-align: center;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.white-text{
+    color:#FFF !important
+}
